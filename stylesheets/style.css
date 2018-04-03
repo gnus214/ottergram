@@ -99,6 +99,11 @@ body {
     transition: transform 333ms;
 }
 
+.is-tiny {
+    transform: scale(0.001);
+    transition: transform 333ms;
+}
+
 .detail-image {
     width: 90%;
 }

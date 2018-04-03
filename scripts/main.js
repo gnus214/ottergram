@@ -53,7 +53,12 @@ function hideDetails() {
 
 function showDetails() {
     'use strict';
+    var frame = document.querySelector(DETAIL_FRAME_SELECTOR);
     document.body.classList.remove(HIDDEN_DETAIL_CLASS);
+    frame.classList.add(TINY_EFFECT_CLASS);
+    setTimeout(function() {
+        frame.classList.remove(TINY_EFFECT_CLASS);
+    }, 50);
 }
 
 function addKeyPressHandler() {
