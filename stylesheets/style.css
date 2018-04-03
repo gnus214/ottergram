@@ -61,11 +61,6 @@ body {
     transform: scale(1.2);
 }
 
-.is-tiny {
-    transform: scale(0.001);
-    transition: transform 0ms;
-}
-
 .thumbnail-list {
     flex: 0 1 auto;
     order: 2;
